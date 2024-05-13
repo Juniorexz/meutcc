@@ -1,0 +1,83 @@
+.company-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #fff; /* Cor de fundo suave para a tela inteira */
+}
+
+.card {
+    width: 100%; /* Preenche a largura do dispositivo */
+    max-width: 400px; /* Limita a largura máxima para telas maiores */
+    padding: 25px;
+    border-radius: 15px; /* Borda mais arredondada para um look moderno */
+    background-color: #f0f2f5; /* Fundo branco para o card */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidade */
+    margin: 10px; /* Espaçamento ao redor do card */
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 20px; /* Espaço entre o título e a lista */
+    font-size: 18px; /* Tamanho de fonte adequado para legibilidade */
+    text-align: center;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card li {
+    margin: 10px 0;
+    padding: 12px 20px; /* Padding maior para um toque mais fácil */
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    justify-content: space-between; /* Distribui o conteúdo igualmente */
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500; /* Tornar o texto um pouco mais grosso para melhor legibilidade */
+}
+
+.card li:hover {
+    background-color: #007bff; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+.card li.active {
+    background-color: #0056b3; /* Cor de fundo para itens ativos */
+    color: white; /* Cor de texto para itens ativos */
+}
+
+.selected-items-display {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.selected-items-display h4 {
+    margin-bottom: 10px;
+}
+
+.selected-items-display button {
+    margin-top: 10px;
+}
+
+.selected-items-display ul {
+    list-style-type: none; /* Remove os bullets da lista */
+    padding: 0;
+}
+
+.selected-items-display li {
+    padding: 5px 0; /* Espaçamento entre itens da lista */
+    border-bottom: 1px solid #ddd; /* Linha separadora */
+}

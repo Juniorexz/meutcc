@@ -1,0 +1,40 @@
+.planos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os cards */
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px; /* Largura fixa para cada card */
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px; /* Bordas arredondadas para o card */
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
